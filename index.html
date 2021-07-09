@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Contador</title>
+</head>
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+    <section>
+        <div id="dados">
+            <div class="flex-box">
+                <p>Inicio:</p>
+                <input type="number" name="txtini" id="inicio">
+            </div>
+
+            <div class="flex-box">
+                <p>Fim:</p>
+                <input type="number" name="txtfim" id="fim">
+            </div>
+
+            <div class="flex-box">
+                <p>Passo:</p>
+                <input type="number" name="txtpas" id="passo">
+            </div>
+            
+            <input class="btn" type="button" value="Contar" onclick="contar()">
+        </div>
+        <div id="res">
+            <p>Preparando a contagem...</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Copyright 2021 Lucas R. Marcondes | Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

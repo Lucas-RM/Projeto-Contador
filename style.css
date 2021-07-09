@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: repeating-linear-gradient(to left, #41047a 0%, #087fa3 50%, #1d055f 100%);
+    font: normal 15pt Poppins, sans-serif, Arial;
+}
+
+header{
+    margin: 10px 0;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    text-shadow: 2px 2px black;
+}
+
+section{
+    margin: auto;
+    margin-bottom: 10px;
+    width: 70%;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 4px 4px 8px  rgba(0, 0, 0, 0.363);
+}
+
+section div {
+    width: 100%;
+}
+
+.flex-box {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.flex-box p {
+    font-size: 20px;
+    width: 70px;
+}
+
+.flex-box input {
+    margin-left: 15px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(16, 11, 27);
+}
+
+.flex-box input:focus {
+    border-bottom: 1px solid rgb(15, 190, 109);
+}
+
+.btn {
+    margin-bottom: 20px;
+    padding: 10px 5%;
+    background: rgb(255, 23, 197);
+    border: none;
+    box-shadow: 0 2px 6px rgb(63, 4, 45);
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+}
+
+.btn:hover {
+    background: rgb(177, 11, 135);  
+}
+
+#res {
+    text-align: center;
+}
+
+#res p {
+    font-size: 18px;
+}
+
+footer{
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 260px) {
+    h1 {font-size: 20px;}
+
+    .flex-box {display: block;}
+
+    .flex-box input {margin-left: 0;}
+
+    .btn {width: 100%;}
+
+    #res p {font-size: x-small;}
+
+    footer{font-size: xx-small;}
+}
+
